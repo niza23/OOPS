@@ -11,7 +11,7 @@ class person{
 
     public:
     
-    person(string x,int y,int z) 
+    person(string x,int y,int z) //the arguments are paased here
     { 
         name=x;
         age=y; 
