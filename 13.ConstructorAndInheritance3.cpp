@@ -26,8 +26,8 @@ class B : public A
     {
         cout<<"para of derived class:"<<x+3;
     }
-    // compiler will first call base class para constructor
-    // then para constructor of derived class
+    // compiler will first call base class parameterized constructor
+    // then parameterized constructor of derived class
 
 
 };
