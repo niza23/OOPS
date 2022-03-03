@@ -3,7 +3,7 @@
 using namespace std;
 
 //every object will allocate separate memroy for themselves
-// static member is comman for all objects
+//static member is comman for all objects
 class base
 {
     private:
