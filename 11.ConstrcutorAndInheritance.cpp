@@ -20,7 +20,7 @@ class B : public A
 
 int main()
 {
-    B obj; //if derived class has no default constructor it will call base's class default constructor
+    B obj; //if derived class has no default constructor, it will call base's class default constructor
     B obj2(7); //this will give an error as there is no parametrized constructor present in derived class
     
     return 0;
