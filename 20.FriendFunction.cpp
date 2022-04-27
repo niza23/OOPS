@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// friend function is used to access the protected and private parts of the class even from the outside of the class
+// friend function is used to access the protected and private parts of the class even from outside of the class
 class alpha
 {
     private:
