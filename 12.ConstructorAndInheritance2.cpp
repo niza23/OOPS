@@ -29,8 +29,8 @@ class B : public A
 int main()
 {
     B obj; 
-    //it will call default constructor of base class 
-    //it will call default constructor of derived class
+    //calls default constructor of base class 
+    //calls default constructor of derived class
     B obj2(7); 
     //it will call default constructor of base class
     //it will NOT call parametrized constructor of base class
