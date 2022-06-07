@@ -8,9 +8,7 @@ class person{
     string name;
     float height;
 
-
-    public:
-    
+    public: 
     person(string x,int y,int z) //the arguments are paased here
     { 
         name=x;
@@ -24,8 +22,6 @@ class person{
         cout<<"height is"<<height<<endl;
     }
     
-    
-
 };
 int main()
 {
