@@ -20,7 +20,7 @@ class B : public A
 };
 
  // what if you want to call function from the base class and don't want to overwrite it?
-   //call the base class function in derived class
+   //soln: all the base class function in derived class
 
 class C: public A{
     public:
