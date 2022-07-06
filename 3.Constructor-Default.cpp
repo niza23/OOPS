@@ -24,8 +24,6 @@ class person{
         cout<<"height is"<<height<<endl;
     }
     
-    
-
 };
 int main()
 {
