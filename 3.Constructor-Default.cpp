@@ -16,7 +16,7 @@ class person{
         name="Null";
         height=0.0f;
     }
-    // if no default constructor is defined by the user, compiler add the default constrcutor by its own.. this default constrcutor just allocate the memory and will have the garbage values
+    // if no default constructor is defined by the user, compiler add the default constrcutor by its own.. this default constrcutor just allocate the memory and contains the garbage values
     void get()
     {
         cout<<"name is:"<<name<<endl;
