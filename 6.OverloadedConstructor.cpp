@@ -44,9 +44,9 @@ class person{
 int main()
 {
     
-    person obj1("nidhi",7,6); //parameterized constructor --nidhi,7,6
-    person obj2(obj1); //it passes the argument of the first object --nidhi,7,6
-    person obj3; //non-parameterized constructor- it gives the values as -- Null,0,0
+    person obj1("nidhi",7,6);  //parameterized constructor --nidhi,7,6
+    person obj2(obj1);         //it passes the argument of the first object --nidhi,7,6
+    person obj3;               //non-parameterized constructor- it gives the values as -- Null,0,0
     obj1.get();
     obj2.get();
     obj3.get();
