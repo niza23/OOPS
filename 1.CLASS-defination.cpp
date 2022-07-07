@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-//class
+
 class house{
     //access specifier
 
