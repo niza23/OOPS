@@ -2,7 +2,7 @@
 using namespace std;
 
 // to delete the whole object i.e. the object of both base and derived class
-// need to make base class virtual
+// we need to make base class virtual
 class base
 {
 public:
