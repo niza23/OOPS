@@ -5,7 +5,7 @@ class base
 {
 public:
         int z;
-        virtual void x(){   //so that only derived class functionality gets called
+        virtual void x(){   //only derived class functionality gets called
             cout<<"base class"<<endl;
         }
         
