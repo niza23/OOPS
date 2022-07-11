@@ -7,9 +7,7 @@ public:
         int z;
         virtual void x(){   //only derived class functionality gets called
             cout<<"base class"<<endl;
-        }
-        
-
+        }    
 };
 class der1: public base
 {
