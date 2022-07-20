@@ -20,7 +20,7 @@ int main()
 {
     base *ptr = new derived;  
 
-    delete ptr; //it will delete the memory allocated to the base class only. since the derived class object is not called
+    delete ptr; //it will only delete the memory allocated to the base class. since the derived class object is not called
 
     return 0;
 }
