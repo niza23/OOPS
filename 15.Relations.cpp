@@ -12,8 +12,8 @@ public:
         void y(){
             cout<<"y of base class"<<endl;
         }
-
 };
+
 class derived: public base
 {
 public:
@@ -23,7 +23,6 @@ public:
         void z(){
             cout<<"derived new";
         }
-
 };
 int main(){
     base a;
