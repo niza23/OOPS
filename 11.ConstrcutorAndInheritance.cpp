@@ -11,7 +11,6 @@ class A{
     {
         cout<<"parametrized constructor"<<endl;
     }
-
 };
 class B : public A
 {
