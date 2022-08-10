@@ -13,27 +13,23 @@ class one
 
     friend class two;   //friend class declaration
 
-
 };
 //class two can access private data of class one
 class two{
     private:
     int y;
     public:
-    two(int b=0)
-    {
+    two(int b=0) {
         y=b;
     }
 
-    int sum()
-    {
+    int sum() {
         one obj1(7);
 
         int sum=obj1.x+y; //can use the class one features
         cout<<"the sum is:"<<sum;
         return sum;
     }
-
 };
 
 int main()
