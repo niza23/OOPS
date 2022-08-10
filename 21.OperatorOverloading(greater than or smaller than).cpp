@@ -11,8 +11,7 @@ class base
     }
     friend bool operator>(base x,base y); // return type will be boolien
     friend bool operator<(base y,base x);
-
-
+    
 };
 
 bool operator <(base x,base y)
