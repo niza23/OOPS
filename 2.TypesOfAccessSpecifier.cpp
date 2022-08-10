@@ -28,8 +28,11 @@ int main()
     //memroy allocation
     specifier a; 
     a.x=10; //private: only works inside the class
+    
     a.y=50; //protected: can only be accessed by the inherited class
+    
     a.z=10; //can be accessed outside the class
+    
     a.show();
     return 0;
     
