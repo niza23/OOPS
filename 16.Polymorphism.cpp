@@ -20,6 +20,6 @@ int main()
     basiccar *ptr;
     ptr=new advcar();
     ptr -> body();
-    // ptr -> engine(); -->>this will give an error bcos 
+    // ptr -> engine(); -->>this will give an error 
     return 0;
 }
