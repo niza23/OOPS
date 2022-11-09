@@ -7,8 +7,6 @@ class A{
    {
        cout<<"this is the msg of base class"<<endl;
    }
-  
-
 };
 class B : public A
 {
@@ -32,8 +30,6 @@ class C: public A{
     }
 
 };
-
-
 
 int main()
 {
